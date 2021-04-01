@@ -1,4 +1,4 @@
-class Grades
+public class Grades
 {
   public static void main(String args[])
   {
