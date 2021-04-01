@@ -1,10 +1,15 @@
-class Conversion
+public class Conversion
  {  
    public static void main (String args[])  
     { 
-	float Fahrenheit, Celsius;  
-          Fahrenheit = 43;  
-          Celsius  = ((Fahrenheit-32)*5)/9;  
+	float Fahrenheit = 43;
+	Conversion c=new Conversion();
+	c.converttoCelsius(Fahrenheit);
+    }
+   void converttoCelsius(float f)
+   {
+	float Celsius;  
+          Celsius  = ((f-32)*5)/9;  
           System.out.println("Temperature in celsius is: "+Celsius);  
     }
 }
